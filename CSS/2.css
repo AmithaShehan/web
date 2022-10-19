@@ -1,0 +1,43 @@
+body{
+ /* background: rgba(66, 43, 12, 0.5); */
+ background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+ text-align: center;
+}
+#id{
+ font-size: 3rem;
+ color: green;
+ /* x , y , blur radius, color */
+ text-shadow: 5px -5px 4px #000;
+}
+.class {
+ color: #ffc;
+}
+h1 {
+ color: rgb(12, 14, 89);
+}
+.square{
+ margin: auto;
+ width: 150px;
+ height: 150px;
+ background: red;
+ box-shadow: 12px 12px #000;
+}
+.circle{
+ width: 150px;
+ height: 150px;
+ background: aqua;
+ border-radius: 150px;
+ margin: auto;
+ box-shadow: 12px 12px #000;
+}
+.container{
+ background: blue;
+ box-shadow: 5px -5px 5px green;
+}
+
+h2{
+ color: #ffc;
+}
+h3{
+ color: yellowgreen;
+}

@@ -1,0 +1,15 @@
+body{
+ background: linear-gradient(to right, green, white );
+  /* font-family: 'Island Moments', cursive; */
+  font-size: 3rem;
+}
+/* when using google fonts do not forget to add fallback font style which is a default one */
+h1{
+ font-family: 'Island Moments', cursive, serif, sans-serif;
+}
+h2{
+ font-family: 'Bebas Neue', cursive, serif, sans-serif;
+}
+h3{
+   font-family: 'Shadows Into Light', cursive, serif, sans-serif;
+}

@@ -8,6 +8,8 @@ body {
   border: 5px solid red;
   padding: 8px;
 }
+
+/* margin creates space outside the element,padding creates space within the element */
 img {
   max-width: 100%;
   height: auto;
@@ -15,4 +17,20 @@ img {
   opacity: 0.5;
   display: block;
   margin: auto;
+}
+
+.img1, .img2{
+
+  width: 200px;
+  margin-top: 60px;
+}
+
+.padding{
+  color: white;
+  background: red;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  
 }

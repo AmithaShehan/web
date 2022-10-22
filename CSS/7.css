@@ -1,0 +1,60 @@
+body{
+ background: linear-gradient(to right, red, white);
+}
+
+.header{
+ color: white;
+ font-size: 30px;
+}
+
+img{
+ max-width: 100%;
+ height: auto;
+ padding: 5px;
+ margin: auto;
+ display: block;
+}
+
+.row{
+ display: flex; 
+ /* to make sure row  expands with the entire view port as it changes */
+ width: 100%;
+ /* to make sure it gets entier view space */
+}
+
+.row::after{
+ /* after a row element is over */
+ display: block;
+ /* to make sure they stack up on each other */
+ clear: both;
+ /* to clear inherited properites like float */
+ content: "";
+}
+
+/* total 12 columns how much view port it takes */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 { width: 33.33%;}
+.col-5 { width: 41.66%;}
+.col-6 { width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 { width: 66.66%;}
+.col-9 { width: 75%;}
+.col-10 { width: 83.33%;}
+.col-11 { width: 91.66%;}
+.col-12 { width: 100%;}
+
+*{
+ box-sizing: border-box;
+ /* to keep the content only within box */
+}
+
+/* attribute selector */
+[class*="col-"]{
+ border: 2px solid yellow;
+ padding: 15px;
+ float:left;
+ /* to be mobile responsive */
+} 
